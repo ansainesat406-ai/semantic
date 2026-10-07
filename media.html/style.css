@@ -10,6 +10,7 @@ h1 {
 p {
   font-size: 14px;
   line-height: 1.5;
+  border: 1px solid black;
 }
 
 #intro {

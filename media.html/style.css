@@ -20,3 +20,7 @@ p {
 .note {
   color: pink;
 }
+
+div>p {
+  color: #0066cc;
+}

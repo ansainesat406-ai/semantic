@@ -59,7 +59,7 @@
 </p>
 <style>
     #intro {
-        color: black;
+        color: balck;
     }
 </style>
 <p id="para1">this is my paragraph</p>
@@ -74,6 +74,38 @@
         color: blanchedalmond;
     }
 </style>
+
+<h4 id="box">learning box model</h4>
+<style>
+    #box {
+        color: black;
+        padding: 20px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        margin: 10px;
+        height: 100px;
+        width: 200px;
+    }
+
+    .container {
+        border: 2 px inset black;
+    }
+</style>
+<div>
+    <p>child p1</p>
+    <div>
+        <p>child p2</p>
+    </div>
+    <span>
+        <p>not a direct child</p>
+    </span>
+
+
+</div>
+<div>
+    <p class="container">we are learning css</p>
+</div>
+
 
 
 
